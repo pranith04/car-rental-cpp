@@ -41,7 +41,7 @@ public:
 
         for (size_t i = 0; i < brands.size(); ++i) {
             for (const auto& model : models[i]) {
-                cars.push_back(car(brands[i], model, 500.0 + i * 10.0, 5));
+                cars.push_back(Car(brands[i], model, 500.0 + i * 10.0, 5));
             }
         }
     }
